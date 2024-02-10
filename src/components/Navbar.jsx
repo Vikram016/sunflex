@@ -72,7 +72,7 @@ onClick={() => setToggle((prev) => !prev)}
 
    </nav>
    
-  )
+  );
 }
 
 export default Navbar;
