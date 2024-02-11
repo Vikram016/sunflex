@@ -2,7 +2,8 @@
 import styles from '../style';
 import Button from './Button';
 
-
+// export default function App(){
+// }
 const CTA = () => {
   return (
     <section className={`${styles.flexCenter} ${styles.marginY}
