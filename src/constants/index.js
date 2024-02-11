@@ -87,7 +87,7 @@ export const JobOpen = [
     location:"Latin Americas",
     Responsibilities:"Maintain, troubleshoot, and repair Siemens gas turbines. Perform diagnostic tests and resolve technical issues. Adhere to all safety and operational procedures.",
     content:"Bachelor's degree in Engineering, (Electrical/Instrumentation). Experience with Siemens gas turbines, especially models 2000E, 4000F, and 5000F. Willingness for extensive travel.",
-    mail:"Interested candidates should submit their resume and cover letter to jeyalakshmi@sunflexglobal.com Please include experience of previous commissioning projects with Siemens Steam turbines, especially models SST-700/900",
+    mail:"Interested candidates should submit their resume and cover letter to jeyalakshmi@sunflexglobal.com Please include Experience with Siemens gas turbines, especially models 2000E, 4000F, and 5000F. Willingness for extensive travel.",
   }, 
   {
     id:"JobOpen-2",
@@ -105,7 +105,7 @@ export const JobOpen = [
     location:"Latin Americas",
     Responsibilities:"Maintain, troubleshoot, and repair Siemens Steam turbines. Perform diagnostic tests and resolve technical issues. Adhere to all safety and operational procedures.",
     content:"Bachelor's degree in Engineering,Experience with Siemens Steam turbines, especially experience in SST - 700/900. Willingness for extensive travel.",
-    mail:"Interested candidates should submit their resume and cover letter to jeyalakshmi@sunflexglobal.com Please include Experience with Siemens gas turbines, especially models 2000E, 4000F, and 5000F. Willingness for extensive travel.",
+    mail:"Interested candidates should submit their resume and cover letter to jeyalakshmi@sunflexglobal.com Please include experience of previous commissioning projects with Siemens Steam turbines, especially models SST-700/900",
   }, 
 ];
 
