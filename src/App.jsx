@@ -1,5 +1,5 @@
 import styles from './style';
-import { Navbar, Hero, Stats,Business,Billing,CardDeal,
+import { Navbar, Hero, Stats,Business,CardDeal,
          Testimonials,Clients,Job,CTA,Footer, 
          } from './components';
               
@@ -32,7 +32,7 @@ const App = () => {
       <div className={`${styles.paddingX} ${styles.boxWidth}`}>
          <Stats/>
         <Business/>
-        <Billing/>
+        {/* <Billing/> */}
         <Job/> 
         <CTA/>
         <CardDeal/>

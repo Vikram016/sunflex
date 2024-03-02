@@ -2,11 +2,10 @@
 import styles from '../style';
 import Button from './Button';
 
-// export default function App(){
-// }
+
 const CTA = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.marginY}
+    <section id="services" className={`${styles.flexCenter} ${styles.marginY}
     ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
       <div className='flex-1 flex flex-col'>
         <h2 className={styles.heading2}>
@@ -21,7 +20,7 @@ const CTA = () => {
         sm:mt-0 mt-10`}>
 
       
-        <Button>Send Your CV</Button> 
+        <a href="https://sunflex.website"><Button>Send Your CV</Button></a> 
     
      </div>
 
