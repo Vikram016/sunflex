@@ -3,16 +3,17 @@ import styles from '../style';
 import Button from './Button';
 
 
-const Job = () => 
+const PostJob = () => 
  (
-  <section id="job" className={`${styles.flexCenter} ${styles.marginY}
+  <section id="post" className={`${styles.flexCenter} ${styles.marginY}
   ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
     <div className='flex-1 flex flex-col'>
       <h2 className={styles.heading2}>
-     Find your next job
+      Looking to hire?
+
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Discover the perfect job opportunity for you. we create a seamless and engaging journey for potential candidates.
+      Post your job listing now and find the perfect candidate. 
       </p>
     </div>
 
@@ -20,7 +21,7 @@ const Job = () =>
       sm:mt-0 mt-10`}>
 
     
-      <a href="https://sunflex.website"><Button>Job search</Button></a> 
+      <a href="https://forms.zoho.in/sunflexglobal/form/Postjob"><Button>Post Job</Button></a> 
   
    </div>
 
@@ -28,4 +29,4 @@ const Job = () =>
   )
 
 
-export default Job;
+export default PostJob;

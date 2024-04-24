@@ -14,6 +14,8 @@ const Footer = () =>  (
              />
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
           Our mission is to lead the transition to sustainable energy. 
+          Email us your Resume to : jeyalakshmi@sunflexglobal.com
+          call : +91 9790390252 
           </p>
           </div>
 
@@ -24,7 +26,7 @@ const Footer = () =>  (
               min-w-[150px]'>
                 <h4 className="font-poppins font-medium text-[18px]
                 leading-[27px] text-white">
-                  {footerLink.title}
+                  {/* {footerLink.title} */}
                 </h4>
                 <ul>
                   {footerLink.links.map((link, index) => (
@@ -50,7 +52,7 @@ const Footer = () =>  (
       border-t-[1px] border-t-[#3F3E45]">
          <p className="font-poppins font-normal text-center text-[18px]
                 leading-[27px] text-white">
-          2024 sunflex.All Rights Reserved
+          2024 sunflex.All Rights Reserved 
          </p>
 
          <div className="flex flex-row md:mt-0 mt-6">

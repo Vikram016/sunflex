@@ -9,7 +9,7 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Job from "./Job";
-import Resume from "./Resume";
+import PostJob from "./PostJob";
 
 
 export {
@@ -24,6 +24,6 @@ export {
   Footer,
   Testimonials,
   Hero,
-  Resume,
+  PostJob,
   
 };

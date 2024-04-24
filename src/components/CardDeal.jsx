@@ -1,6 +1,6 @@
 import { card } from '../assets';
 import styles, { layout } from '../style';
-import Button from './Button';
+
 
 const CardDeal = () => (
   <section id="project" className={layout.section}>
@@ -15,7 +15,7 @@ const CardDeal = () => (
       accommodation, and work permits for contractors.
       </p>
       
-      <Button styles="mt-10"/>
+      
     </div>
 
     <div className={layout.sectionImg}>

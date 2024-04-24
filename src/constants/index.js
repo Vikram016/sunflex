@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, green, siemens, mitsubishi, send, shield, star,} from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, green, siemens, mitsubishi, send, shield, star, } from "../assets";
 
 export const navLinks = [
   {
@@ -11,11 +11,15 @@ export const navLinks = [
   },
   {
     id:"services",
-    title:"Our Services",
+    title:"Post CV",
   },
   {
     id: "job",
-    title: "Jobs search",
+    title: "Job Search",
+  },
+  {
+    id: "post",
+    title: "Post Job",
   },
   {
     id: "client",
@@ -231,3 +235,4 @@ export const clients = [
   },
   
 ];
+

@@ -20,7 +20,7 @@ const CTA = () => {
         sm:mt-0 mt-10`}>
 
       
-        <a href="https://sunflex.website"><Button>Send Your CV</Button></a> 
+        <a href="https://forms.zoho.in/sunflexglobal/form/SunflexGlobalEnergyCandidateEvaluation"><Button>Send Your CV</Button></a> 
     
      </div>
 

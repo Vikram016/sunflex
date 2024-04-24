@@ -2,6 +2,7 @@ import { features} from '../constants';
 import styles, {layout} from '../style';
 import Button from './Button';
 
+
 const FeatureCard = ({icon, title, content, index }) => (
 <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length -1 ? "mb-6":"mb-0"} feature-card`}>
   <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
@@ -25,13 +26,14 @@ const Business = () => {
       <section id="about" className={layout.section}>
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}> You do the bussiness, <br className='sm:block hidden'/>
-          we'll handle the talent </h2>
+          We'll handle the talent </h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Sunflex is committed to supporting and partnering in sustainable energy initiatives. Our role in the transition to cleaner energy solutions is pivotal, and we work closely with organizations that promote sustainability in the power generation industry.
 
           </p>
-
-          <Button styles="mt-10"/>
+          
+          <a className="mt-10" href="https://forms.zoho.in/sunflexglobal/form/SunflexGlobalEnergyCandidateEvaluation"><Button>Send Your CV</Button></a> 
+          
         </div>
 
         <div className={`${layout.sectionImg}

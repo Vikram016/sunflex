@@ -1,6 +1,6 @@
 import styles from './style';
 import { Navbar, Hero, Stats,Business,CardDeal,
-         Testimonials,Clients,Job,CTA,Footer, 
+         Testimonials,Clients,Job,CTA,PostJob,Footer, 
          } from './components';
               
 
@@ -35,6 +35,7 @@ const App = () => {
         {/* <Billing/> */}
         <Job/> 
         <CTA/>
+        <PostJob/>
         <CardDeal/>
         <Testimonials/>
         <Clients/>

@@ -1,6 +1,18 @@
-import { feedback } from "../constants";
+// import { feedback } from "../constants";
 import styles from '../style';
-import FeedbackCard from "./FeedbackCard";
+// import FeedbackCard from "./FeedbackCard";
+import file1 from "../Image/steam1.jpg";
+import file2 from "../Image/steam2.jpg";
+import file3 from "../Image/steam3.jpg";
+import file4 from "../Image/steam4.jpg";
+import file5 from "../Image/steam5.jpg";
+import file6 from "../Image/steam6.jpg";
+
+
+
+
+
+
 
 
 const Testimonials = () => (
@@ -22,10 +34,43 @@ const Testimonials = () => (
       </div>
   </div>
 
-  <div className="flex  xl:flex-nowrap flex-wrap  sm:justify-start 
+  {/* <div className="flex  xl:flex-nowrap flex-wrap  sm:justify-start 
   justify-center items-center w-full feedback-container relative z-[1]">
       {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
+    </div> */}
+
+
+   
+
+
+    <div className="flex  xl:flex-nowrap flex-wrap  sm:justify-start 
+  justify-center items-center w-full feedback-container relative z-[1]">
+    <div className='p-1'>
+     <img src = {file1} alt="sunflex" />
     </div>
+    <div className='p-1'>
+     <img src = {file2} alt="sunflex" />
+    </div>
+    <div className='p-1'>
+     <img src = {file3} alt="sunflex" />
+    </div>
+    </div>
+
+    <div className="flex  xl:flex-nowrap flex-wrap  sm:justify-start 
+  justify-center items-center w-full feedback-container relative z-[1]">
+    <div className='p-1'>
+     <img src = {file4} alt="sunflex" />
+    </div>
+    <div className='p-1'>
+     <img src = {file5} alt="sunflex" />
+    </div>
+    <div className='p-1'>
+     <img src = {file6} alt="sunflex" />
+    </div>
+    </div>
+
+    
+    
   </section>
 )
 
