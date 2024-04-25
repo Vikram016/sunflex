@@ -21,7 +21,7 @@ const PostJob = () =>
       sm:mt-0 mt-10`}>
 
     
-      <a href="https://forms.zoho.in/sunflexglobal/form/Postjob"><Button>Post Job</Button></a> 
+      <a href="https://forms.zohopublic.in/sunflexglobal/form/Postjob/formperma/tTZLyiUdTG56x9EXaYpwSssTbbML1KsSONca-a4tP3s"><Button>Post Job</Button></a> 
   
    </div>
 
