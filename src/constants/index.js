@@ -4,30 +4,27 @@ export const navLinks = [
   {
     id: "home",
     title: "Home",
+    link: "/",
   },
   {
     id: "about",
     title: "About",
+    link: "/about",
   },
   {
-    id:"services",
-    title:"Post CV",
+    id: "services",
+    title: "Post CV",
+    link: "/post-cv",
   },
   {
     id: "job",
     title: "Job Search",
+    link: "/jobs",
   },
   {
     id: "post",
     title: "Post Job",
-  },
-  {
-    id: "client",
-    title: "Client",
-  },
-  {
-    id: "project",
-    title: "Our Project",
+    link: "/post-job-form",
   },
 ];
 
@@ -36,22 +33,22 @@ export const features = [
     id: "feature-1",
     icon: star,
     title: "unparalleled global netwok",
-    content:"Explore how Sunﬂex Global Energy prioritizes leveraging technology, we create a seamless and engaging journey for potential hires.",
+    content: "Explore how Sunﬂex Global Energy prioritizes leveraging technology, we create a seamless and engaging journey for potential hires.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "A true partner to both our clients and candidates",
-    content:"Our talent acquisition process is thorough and inclusive, from sourcing to onboarding. We focus on creating a diverse candidate pool and place a strong emphasis on finding the right fit for both our clients and the candidates.",
-     
-      
+    content: "Our talent acquisition process is thorough and inclusive, from sourcing to onboarding. We focus on creating a diverse candidate pool and place a strong emphasis on finding the right fit for both our clients and the candidates.",
+
+
   },
   {
     id: "feature-3",
     icon: send,
     title: "Deep industry knowledge",
     content: "Sunflex employs state-of-the-art recruitment tools, including AI-powered matching and virtual assessments. Our approach has revolutionized the recruitment process, leading to successful placements that benefit both our clients and the talent we nurture.",
-      
+
   },
 ];
 
@@ -85,32 +82,32 @@ export const feedback = [
 
 export const JobOpen = [
   {
-    id:"JobOpen-1",
-    company:"Siemens Energy",
-    role:"Instrumentation Field Service Engineer",
-    location:"Latin Americas",
-    Responsibilities:"Maintain, troubleshoot, and repair Siemens gas turbines. Perform diagnostic tests and resolve technical issues. Adhere to all safety and operational procedures.",
-    content:"Bachelor's degree in Engineering, (Electrical/Instrumentation). Experience with Siemens gas turbines, especially models 2000E, 4000F, and 5000F. Willingness for extensive travel.",
-    mail:"Interested candidates should submit their resume and cover letter to jeyalakshmi@sunflexglobal.com Please include Experience with Siemens gas turbines, especially models 2000E, 4000F, and 5000F. Willingness for extensive travel.",
-  }, 
-  {
-    id:"JobOpen-2",
-    company:"Siemens Energy",
-    role:"DCS Engineer (T3000)",
-    location:"Latin Americas",
-    Responsibilities:"Maintain, troubleshoot, and repair Siemens Steam turbines. Perform diagnostic tests and resolve technical issues. Adhere to all safety and operational procedures.",
-    content:"Bachelor's degree in engineering, (Electrical/Instrumentation). Experience with Siemens Steam turbines, especially experience in T3000. Willingness for extensive travel.",
-    mail:"Interested candidates should submit their resume and cover letter to jeyalakshmi@sunflexglobal.com Please include Experience with Siemens Steam turbines, especially experience in T3000. Willingness for extensive travel.",
+    id: "JobOpen-1",
+    company: "Siemens Energy",
+    role: "Instrumentation Field Service Engineer",
+    location: "Latin Americas",
+    Responsibilities: "Maintain, troubleshoot, and repair Siemens gas turbines. Perform diagnostic tests and resolve technical issues. Adhere to all safety and operational procedures.",
+    content: "Bachelor's degree in Engineering, (Electrical/Instrumentation). Experience with Siemens gas turbines, especially models 2000E, 4000F, and 5000F. Willingness for extensive travel.",
+    mail: "Interested candidates should submit their resume and cover letter to jeyalakshmi@sunflexglobal.com Please include Experience with Siemens gas turbines, especially models 2000E, 4000F, and 5000F. Willingness for extensive travel.",
   },
   {
-    id:"JobOpen-3",
-    company:"Siemens Energy",
-    role:"ST Commissioning Mechanical Engineer",
-    location:"Latin Americas",
-    Responsibilities:"Maintain, troubleshoot, and repair Siemens Steam turbines. Perform diagnostic tests and resolve technical issues. Adhere to all safety and operational procedures.",
-    content:"Bachelor's degree in Engineering,Experience with Siemens Steam turbines, especially experience in SST - 700/900. Willingness for extensive travel.",
-    mail:"Interested candidates should submit their resume and cover letter to jeyalakshmi@sunflexglobal.com Please include experience of previous commissioning projects with Siemens Steam turbines, especially models SST-700/900",
-  }, 
+    id: "JobOpen-2",
+    company: "Siemens Energy",
+    role: "DCS Engineer (T3000)",
+    location: "Latin Americas",
+    Responsibilities: "Maintain, troubleshoot, and repair Siemens Steam turbines. Perform diagnostic tests and resolve technical issues. Adhere to all safety and operational procedures.",
+    content: "Bachelor's degree in engineering, (Electrical/Instrumentation). Experience with Siemens Steam turbines, especially experience in T3000. Willingness for extensive travel.",
+    mail: "Interested candidates should submit their resume and cover letter to jeyalakshmi@sunflexglobal.com Please include Experience with Siemens Steam turbines, especially experience in T3000. Willingness for extensive travel.",
+  },
+  {
+    id: "JobOpen-3",
+    company: "Siemens Energy",
+    role: "ST Commissioning Mechanical Engineer",
+    location: "Latin Americas",
+    Responsibilities: "Maintain, troubleshoot, and repair Siemens Steam turbines. Perform diagnostic tests and resolve technical issues. Adhere to all safety and operational procedures.",
+    content: "Bachelor's degree in Engineering,Experience with Siemens Steam turbines, especially experience in SST - 700/900. Willingness for extensive travel.",
+    mail: "Interested candidates should submit their resume and cover letter to jeyalakshmi@sunflexglobal.com Please include experience of previous commissioning projects with Siemens Steam turbines, especially models SST-700/900",
+  },
 ];
 
 export const stats = [
@@ -233,6 +230,6 @@ export const clients = [
     id: "client-3",
     logo: mitsubishi,
   },
-  
+
 ];
 

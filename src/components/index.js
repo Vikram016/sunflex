@@ -10,6 +10,10 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Job from "./Job";
 import PostJob from "./PostJob";
+import PostJobForm from "./PostJobForm";
+import JobSearchPage from "./JobSearchPage";
+import PostCVPage from "./PostCVPage";
+import AboutUs from "./AboutUs";
 
 
 export {
@@ -25,5 +29,8 @@ export {
   Testimonials,
   Hero,
   PostJob,
-  
+  PostJobForm,
+  JobSearchPage,
+  PostCVPage,
+  AboutUs,
 };
