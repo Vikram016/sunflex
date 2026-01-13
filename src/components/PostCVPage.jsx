@@ -72,19 +72,7 @@ const PostCVPage = () => {
                 window.scrollTo(0, 0);
             }, (error) => {
                 console.log('FAILED...', error);
-                const pdfBlob = generatePDF(formData);
-                const pdfUrl = URL.createObjectURL(pdfBlob);
-                const link = document.createElement('a');
-                link.href = pdfUrl;
-                link.download = `Application_${formData.get('first_name')}.pdf`;
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-
-                e.target.reset();
-                setSelectedArea('');
-                setShowSuccess(true);
-                window.scrollTo(0, 0);
+                alert('Failed to send application. Please try again or contact support.');
             })
             .finally(() => {
                 setLoading(false);
